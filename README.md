@@ -8,8 +8,10 @@ javac Server.java
 javac Client.java
 
 # To Start the Server
-Open up a terminal and type     "java Server [Port number]"
+java Server [Port number]
 
 # To Connect the Client to the Server
-Open another terminal and type  "java Client <localhost> [Port number]".
-If the Server is run on a different machine, the client must substitute 'localhost' with the Server's IP address.
+java Client <Server IP> [Port number]
+
+# Note
+Entering the Port numbers in both the Server and the Client is optional. The default port number is 3500. If you type in a port yourself in the Server, you must also specify the same port in the Client. If both the Server and the Client are run on the same machine, the Server's IP can be substituted with 'localhost' or '127.0.0.1'
