@@ -11,7 +11,7 @@ javac Client.java
 java Server [Port number]
 
 # To Connect the Client to the Server
-java Client <Server IP> [Port number]
+java Client [Server IP] [Port number]
 
 # Note
 Entering the Port numbers in both the Server and the Client is optional. The default port number is 3500. If you type in a port yourself in the Server, you must also specify the same port in the Client. If both the Server and the Client are run on the same machine, the Server's IP can be substituted with 'localhost' or '127.0.0.1'
